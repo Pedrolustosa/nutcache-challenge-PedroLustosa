@@ -87,7 +87,7 @@ export class EmployeeList extends Component {
                                                     </button>
                                                         <ul class="dropdown-menu">
                                                             <li><a className="dropdown-item"><button className="btn btn-outline-warning w-100" onClick={() => this.handleEdit(index)}>Editar</button></a></li>
-                                                            <li><a className="dropdown-item"><button className="btn btn-outline-danger w-100 delete-button" onClick={() => { if (window.confirm('Are you sure you wish to delete this item?')) this.handleDelete(index) }} >Excluir</button></a></li>
+                                                            <li><a className="dropdown-item"><button className="btn btn-outline-danger w-100 delete-button" onClick={() => { if (window.confirm('Você tem certeza que deseja excluir dados desse subordinado?')) this.handleDelete(index) }} >Excluir</button></a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
