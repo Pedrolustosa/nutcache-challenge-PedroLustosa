@@ -7,10 +7,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1{
+  font-size: 56px;
+  font-weight: bold;
+}
+
 table,
 table .btn {
-  font-size: 14px;
+  font-size: 12px;
 }
+
+.form-control,
+.form-select {
+  border-radius: 30px;
+}
+
+.btn {
+  margin: 2px;
+  transition: 1s;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  transition: 1s;
+}
+
 
 @media screen and (max-width: 760px) {
 
